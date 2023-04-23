@@ -18,7 +18,7 @@ docker push horsemens/django:1.0.0
 if [ -d src ]
 then
     echo "Deleting temp........."
-    rm -rf temp
+    rm -rf src
 fi
 
 echo "Done......................"
